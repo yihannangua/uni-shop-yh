@@ -64,7 +64,7 @@
 		props: {
 			placeholder: {
 				type: String,
-				default: ""
+				default: '请输入搜索关键词'
 			},
 			radius: {
 				type: [Number, String],
@@ -109,9 +109,9 @@
 		},
 		data() {
 			return {
-				show: false,
-				showSync: false,
-				searchVal: ''
+				show: true,
+				showSync: true,
+				searchVal: '',
 			}
 		},
 		computed: {
@@ -235,7 +235,7 @@
 		flex-direction: row;
 		position: relative;
 		padding: 10px;
-		// background-color: #fff;
+		background-color: #c00000;
 	}
 
 	.uni-searchbar__box {

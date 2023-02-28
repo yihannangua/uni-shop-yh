@@ -1,0 +1,23 @@
+{
+  "name": "uni-shop-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/yihannangua/uni-shop-yh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yihannangua/uni-shop-yh/issues"
+  },
+  "homepage": "https://github.com/yihannangua/uni-shop-yh#readme",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1"
+  }
+}
